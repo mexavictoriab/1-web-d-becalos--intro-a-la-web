@@ -1,8 +1,15 @@
 # Lista de alumnos
 
-## Primera linea
+## Primera línea
 
 1. Adriana
 1. Angel
 1. Yatzil
 1. Mariela
+
+## Segunda línea
+
+- Aislynn
+- Emmanuel
+- Manuel
+- Ernesto
