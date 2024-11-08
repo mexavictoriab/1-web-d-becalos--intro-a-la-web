@@ -17,6 +17,14 @@ p {
     font-weight: bold;
 }
 
+.special-link{
+    color: rgb(151, 9, 80);
+}
+
+a{
+    color: aqua;
+}
+
 a {
     color: rgb(44, 35, 94);
 }
