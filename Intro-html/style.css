@@ -1,0 +1,27 @@
+body {
+    /*background-color: gold;*/
+    font-family: sans-serif;
+}
+
+p {
+    color: blueviolet;
+}
+
+#unic-paragraph {
+    color: hotpink;
+    font-size: 22px;
+}
+
+.black-words {
+    color: black;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(44, 35, 94);
+}
+
+/*main {
+    color: gray;
+}*/
+
