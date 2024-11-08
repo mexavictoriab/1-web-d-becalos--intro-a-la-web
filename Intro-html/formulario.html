@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form>
+        <label for="first-name">Nombre: </label>
+        <input type="text" id="first-name" required> 
+        <br>
+        <label for="phone-number">Teléfono</label>
+        <input type="tel" id="phone-number">
+        <br>
+        <label for="email-user">Correo</label>
+        <input type="email" id="email-user" required>
+        <br>
+        <label for="age">Edad</label>
+        <input type="number" id="age">
+        <br>
+        <label for="password-user">Contraseña</label>
+        <input type="password" id="password-user">
+        <br>
+        <label for="avatar">Agrega tu foto de perfil:</label>
+        <input type="file" id="avatar" accept="image/png , image/jpeg">
+        <br>
+        <fieldset>
+            <legend>Cuales son tus hobbies?</legend>
+            <input type="checkbox" id="dance" checked>
+            <label for="dance">Danza</label>
+            <input type="checkbox" id="read">
+            <label for="read">Leer</label>
+            <input type="checkbox" id="play-instrument">
+            <label for="play-instrument">Tocar instrumento</label>
+            <input type="checkbox" id="yoga">
+            <label for="yoga">Yoga</label>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona tu grado escolar actual:</legend>
+            <input type="radio" id="middle-school" name="school'grade">
+            <label for="middle-school">primaria</label>
+            <input type="radio" id="junior-high" name="school'grade">
+            <label for="junior-high">secundaria</label>
+            <input type="radio" id="high-school" name="school'grade" checked>
+            <label for="high-school">preparatoria</label>
+            <input type="radio" id="major" name="school'grade">
+            <label for="major">universidad</label>
+        </fieldset>
+        <input type="range">
+        <input type="color">
+        <input type="date">
+        <button>Registrarse!</button>
+    </form>
+</body>
+</html>
