@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(250, 191, 237);
+}
+
+h1{
+    background-color: rgb(248, 224, 232);
+    /*Box model*/
+    /*padding: 16px;*/
+    /*padding-block-start: 5px;
+    padding-block-end: 1px;
+
+    padding-inline-start: 16px;
+    padding-inline-end: 20px;*/
+
+    /*shorthand*/
+    padding-block: 1px 16px;
+    padding-inline: 50px 20px;
+
+    /*shorthand*/
+    border: dotted 5px rgb(131, 2, 131);
+
+    /*margin-block-start: 50px;
+    margin-block-end: 5px;
+    margin-inline-start: 30px;
+    margin-inline-end: 10px;*/
+    
+    /*margin-block:50px 50px ;
+    margin-inline: 30px 10px;*/
+
+    margin: 50px;
+}
+
+p{
+    background-color: bisque;
+    padding: 16px;
+    border: 5px dashed rgb(251, 120, 255);
+
+}
+
+#parrafo-1 {
+    background-clip: border-box;
+}
+
+#parrafo-2 {
+    background-clip: padding-box;
+}
+
+#parrafo-3 {
+    background-clip: content-box;
+}
+
+h2{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(163,81,175,1) 49%, rgba(252,70,107,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
