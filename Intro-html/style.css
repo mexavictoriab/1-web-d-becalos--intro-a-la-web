@@ -3,6 +3,11 @@ body {
     font-family: sans-serif;
 }
 
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
 p {
     color: blueviolet;
 }
@@ -27,6 +32,8 @@ a{
 
 a {
     color: rgb(44, 35, 94);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /*main {

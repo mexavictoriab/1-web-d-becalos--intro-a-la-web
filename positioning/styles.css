@@ -1,0 +1,19 @@
+img{
+    display: block;
+    width: 300px;
+    /*height: 300px;*/
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+p{
+    text-align: left;
+}
+.image-left{
+    float:left;
+    margin-right: 16px;
+}
+
+.image-right{
+    float: right;
+    margin-left: 16px;
+}
